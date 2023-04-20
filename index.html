@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-menu">
+            <div class="logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <div class="menu-logo">
+                <img src="images/hamburger.png" >
+            </div>
+        </div>
+        
+        <nav id="yolo">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#download" >Download</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-image" >
+            <div class="data">
+                <h1>The right <span class="name">TEKKnician</span> for the right job.</h1>
+                <p>A mobile application that facilitates connecting skilled workers with potential clients and those who require technicians for their business.</p>
+            </div>
+        </div>
+        <div class="about-section" id="about">
+            <h1>Welcome to TEKK</h1>
+            <img src="images/wireframe.png" alt="tekk mockup">
+            <p>TEKK - the platform that connects skilled workers with individuals seeking their services. At TEKK, we understand that skilled workers and technicians often struggle to receive fair compensation due to exploitative practices by their employers. Our platform that directly connects tradespeople with individuals in need of their services.</p>
+
+            <p>Whether you're a carpenter, electrician, plumber, or any other skilled worker, TEKK provides you with a platform to expand your client base and working hours, while also ensuring that you are compensated fairly for your hard work.</p>
+
+            <p>For individuals seeking honest and diligent workers for their job opportunities, TEKK is the ideal platform. Our user-friendly interface and extensive database of skilled workers ensure that you can find the right worker for your needs quickly and easily.</p>
+            <a href="proposal.pdf" download="proposal" id="download">
+                <button class="btn">View Proposal</button>
+            </a>
+            
+        </div>
+        <div class="features" id="features">
+            <h1>Application Features</h1>
+            <div class="feature">
+                <img src="images/plus icon.png" alt="">
+                <h2>Create Job Posts</h2>
+                <p>Find the tradesperson for the service by creating job posts.</p>
+            </div>
+            <div class="feature">
+                <img src="images/compare.png" alt="">
+                <h2>Compare Quotes</h2>
+                <p>Make informed decisions by comparing quotes from multiple tradespeople.</p>
+            </div>
+            <div class="feature">
+                <img src="images/search.png" alt="">
+                <h2>Explore Jobs</h2>
+                <p>Get job opportunities by searching through our extensive collection of job listings.</p>
+            </div>
+            <div class="feature">
+                <img src="images/track.png" alt="">
+                <h2>Track Hours and Pay</h2>
+                <p>Keep effortless track of your working hours and payment.</p>
+            </div>
+            <div class="feature chat">
+                <img src="images/chat.png" alt="">
+                <h2>Quick Communication</h2>
+                <p>Communicate efficiently with the job-oriented messaging feature.</p>
+            </div>
+        </div>
+        <div class="team" id="team">
+            <h1>Our Team</h1>
+            <div class="member">
+                <img src="images/jasmeen.png" alt="jasmeen">
+                <h3>Jasmeen Verma</h3>
+                <h4>UX/UI Designer</h4>
+            </div>
+            <div class="member">
+                <img src="images/ritvik.png" alt="ritvik">
+                <h3>Ritvik Verma</h3>
+                <h4>UX/UI Designer</h4>
+            </div>
+            <div class="member">
+                <img src="images/clara.png" alt="clara">
+                <h3>Clara Pedrosa Guedes</h3>
+                <h4>UX/UI Designer</h4>
+            </div>
+            <div class="member">
+                <img src="images/hung.png" alt="Richie">
+                <h3>Richie Ha</h3>
+                <h4>UX Designer</h4>
+            </div>
+            <div class="member">
+                <img src="images/satveer.png" alt="satveer">
+                <h3>Satveer Kaur</h3>
+                <h4>UX/UI Designer</h4>
+            </div>
+            <div class="member">
+                <img src="images/mohit.png" alt="mohit">
+                <h3>Mohit Wadhwa</h3>
+                <h4>Backend Developer</h4>
+            </div>
+            <div class="member">
+                <img src="images/tarun.png" alt="tarun">
+                <h3>Tarun Thakur</h3>
+                <h4>Frontend Developer</h4>
+            </div>
+            <div class="member">
+                <img src="images/adil.png" alt="adil">
+                <h3>Adil Saju</h3>
+                <h4>Backend Developer</h4>
+            </div>
+            <div class="member memberlast">
+                <img src="images/harshit.png" alt="harshit">
+                <h3>Harshit Punn</h3>
+                <h4>Frontend Developer</h4>
+            </div>
+        </div>
+        <div class="store">
+            <p>Find the tradesperson for the service by creating job posts.</p>
+            <img src="images/footermockup.png" alt="footer mockup">
+        </div>
+    </main>
+    <footer>
+        <p>Copyright @2023 TEKK</p>
+    </footer>
+    <script>
+        const menuIcon = document.querySelector('.menu-logo');
+        const menuLinks = document.querySelector('#yolo');
+
+        menuIcon.addEventListener('click', () => {
+        menuLinks.classList.toggle('hamburger');
+        });
+    </script>
+</body>
+</html>
